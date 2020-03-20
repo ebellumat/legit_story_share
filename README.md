@@ -37,7 +37,7 @@ If you are using iOS >= 9 you need to add [LSApplicationQueriesSchemes](https://
 #### Android
 
 1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import com.reactlibrary.LegitStorySharePackage;` to the imports at the top of the file
+  - Add `import com.instagramStories.LegitStorySharePackage;` to the imports at the top of the file
   - Add `new LegitStorySharePackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
